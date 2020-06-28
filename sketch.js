@@ -65,6 +65,10 @@ let texts10;
 let texts11;
 
 function setup() {
+  if (navigator.userAgent.indexOf("Chrome") != -1) {
+  } else {
+    alert('This website will not work properly in this browser. Please use Chrome');
+  }
   canvas = createCanvas(int(windowWidth * 3 / 5), int((windowWidth * 3 / 5) * 9 / 16));
   canvas.position(450, 100);
 

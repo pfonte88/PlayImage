@@ -100,19 +100,19 @@ function setup() {
   }
 
   radio = createRadio();
-  radio.option('Red', 1);
+  radio.option('Red  ', 1);
   radio.option('Green', 2);
-  radio.option('Blue', 3);
-  radio.option('Gray', 4);
+  radio.option('Blue ', 3);
+  radio.option('Gray ', 4);
   radio.changed(reDraw);
   radio.style('width', '69px');
   radio.position(10, 150);
 
   radio1 = createRadio();
-  radio1.option('Red', 1);
+  radio1.option('Red  ', 1);
   radio1.option('Green', 2);
-  radio1.option('Blue', 3);
-  radio1.option('Gray', 4);
+  radio1.option('Blue ', 3);
+  radio1.option('Gray ', 4);
   radio1.changed(reDraw);
   radio1.style('width', '69px');
   radio1.position(137, 150);
